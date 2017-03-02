@@ -1,2 +1,2 @@
-# CSE115-Soultions
-CSE115-Soultions
+# CSE115-Solutions
+CSE115-Solutions
