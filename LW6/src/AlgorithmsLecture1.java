@@ -10,6 +10,8 @@ public class AlgorithmsLecture1 {
     	
     	//this is the fastest and most compact solution
         //return Collections.min(input);
+    	
+    	//this is the intended solution
     	double min = Double.POSITIVE_INFINITY;
     	for(Double d : input){
     		if(min > d){
