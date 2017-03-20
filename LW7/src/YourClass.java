@@ -41,5 +41,24 @@ public class YourClass {
 	public int difference() {
 		return this.a - this.b;
 	}
+	
+	 // 2 point
+    // Override the toString method to return a String in the format "(a, b)"
+	@Override
+	public String toString(){
+		return "("  + this.a + ", " + this.b + ")";
+	}
+
+
+
+    /* Static method */
+
+    // 3 points
+    public static void decrement(YourClass instance){
+        // Subtract 1 from both 'a' and 'b' in the given instance of YourClass
+    	instance.a = instance.a - 1;
+    	instance.b = instance.b - 1;  
+
+    }
 
 }
