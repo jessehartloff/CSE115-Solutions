@@ -97,9 +97,15 @@ public class PS10_JSON{
     	
     	// quick question:
     	// this is very inefficient but why?
-    	for(JsonValue j : Json.parse(json).asArray()){
-    		ans.add(j.asString());
+    	for(int i =0; i < Json.parse(json).asArray().size(); i++){
+    		ans.add(Json.parse(json).asArray().get(i).asString());
     	}
+    	
+    	
+    	//much better solution
+//    	for(JsonValue j : Json.parse(json).asArray()){
+//    		ans.add(j.asString());
+//    	}
         return ans;
     }
 
